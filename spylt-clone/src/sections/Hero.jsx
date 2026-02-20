@@ -1,10 +1,10 @@
 import React from 'react'
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { SplitText } from 'gsap/all';
+import { SplitText, ScrollTrigger } from 'gsap/all';
 import { useMediaQuery } from 'react-responsive';
 
-gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 
 const Hero = () => {
