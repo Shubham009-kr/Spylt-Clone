@@ -42,7 +42,7 @@ const SubHero = () => {
             delay:1,
             scrollTrigger:{
                 trigger:".msg-text-scroll",
-                start:"top 70%",
+                start:"top 75%",
                 end:"bottom center",
 
             }
