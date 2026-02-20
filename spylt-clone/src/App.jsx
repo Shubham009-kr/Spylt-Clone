@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 import { SplitText, ScrollTrigger, ScrollSmoother } from 'gsap/all';
 import Flavours from './sections/Flavours';
 import Nutrition from './sections/Nutrition';
+import TagsSection from './sections/TagsSection';
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(SplitText, ScrollTrigger, ScrollSmoother);
@@ -28,6 +29,7 @@ const App = () => {
           <SubHero />
           <Flavours />
           <Nutrition />
+          <TagsSection />
         </div>
       </div>
       {/* <div className='w-full h-screen'></div> */}
