@@ -2,6 +2,7 @@ import React from 'react'
 import Tags from '../components/Tags'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import Video from '../components/Video'
 
 const TagsSection = () => {
 
@@ -53,6 +54,9 @@ const TagsSection = () => {
                     <p>And much more ...</p>
                 </div>
             </div>
+        </div>
+        <div className='relative overlay-box'>
+            <Video />
         </div>
     </section>
   )

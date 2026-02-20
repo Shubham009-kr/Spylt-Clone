@@ -8,6 +8,8 @@ import { SplitText, ScrollTrigger, ScrollSmoother } from 'gsap/all';
 import Flavours from './sections/Flavours';
 import Nutrition from './sections/Nutrition';
 import TagsSection from './sections/TagsSection';
+import Testimonial from './sections/Testimonial';
+import Footer from './sections/Footer';
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(SplitText, ScrollTrigger, ScrollSmoother);
@@ -29,7 +31,11 @@ const App = () => {
           <SubHero />
           <Flavours />
           <Nutrition />
-          <TagsSection />
+          <div>
+            <TagsSection />
+            <Testimonial />
+          </div>
+          <Footer />
         </div>
       </div>
       {/* <div className='w-full h-screen'></div> */}
